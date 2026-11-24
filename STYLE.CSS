@@ -234,3 +234,6 @@ footer {
 footer p {
     font-size: 14px;
 }
+
+/* Responsive, keyboard-accessible site refresh */
+html{scroll-behavior:smooth;scroll-padding-top:120px}header{background:#162324}header .container{gap:16px;flex-wrap:wrap}nav{display:flex;gap:clamp(10px,2vw,24px);flex-wrap:wrap}nav a{margin:0}.hero{background:radial-gradient(ellipse at top right,#365256,transparent 60%),linear-gradient(135deg,#162324,#23383a);padding:clamp(100px,15vw,180px) 20px 80px}.hero h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.15}.hero p{max-width:720px;margin:0 auto 30px}.hero .cta,.contact .cta{display:inline-block;background:#F5A623;color:#162324;padding:14px 25px;border-radius:8px;font-weight:700;text-decoration:none}.service-item{border:1px solid #4d6668;border-radius:16px;text-align:left;padding:26px}.service-item h3{font-size:1.25rem}.contact a{overflow-wrap:anywhere}:where(a,button,input,textarea):focus-visible{outline:3px solid #fff;outline-offset:4px}@media(max-width:600px){header{position:static}.hero{margin-top:0;padding:72px 20px}.logo{font-size:22px}.about,.services,.contact{padding:40px 20px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.service-item:hover{transform:none}}
